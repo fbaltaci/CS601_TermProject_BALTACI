@@ -6,6 +6,9 @@ I'm happy to share my term project with you - it's a personal website that shows
 
 Please take a look at the website to get a better idea of my experiences.
 
+GitHub Link: https://github.com/fbaltaci/CS601_TermProject_BALTACI
+To clone the project: git clone https://github.com/fbaltaci/CS601_TermProject_BALTACI.git
+
 Best,
 Fehmi
 
