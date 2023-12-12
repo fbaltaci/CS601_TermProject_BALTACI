@@ -223,25 +223,37 @@ strong {
 
 /* START -- ABOUT-ME - MY-FACTS -- START */
 
-.about-me {
+.about-me,
+.turkey-culture,
+.turkey-food,
+.turkey-places,
+.turkey-weather {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-.about-me__title {
+.about-me__title,
+.turkey-culture__title,
+.turkey-food__title,
+.turkey-places__title,
+.turkey-weather__title {
   color: var(--clr-slate600);
   text-transform: capitalize;
 }
 
 .about-me__subtitle,
-.my-facts__subtitle {
+.my-facts__subtitle,
+.turkey-culture__subtitle,
+.turkey-food__title {
   font-size: var(--size-3xl);
   color: var(--clr-slate400);
   /* text-transform: capitalize; */
 }
 
 .about-me__description,
-.my-facts__list {
+.my-facts__list,
+.turkey-culture__description,
+.turkey-weather__description {
   padding-top: 1.5rem;
   padding-bottom: 2.5rem;
 

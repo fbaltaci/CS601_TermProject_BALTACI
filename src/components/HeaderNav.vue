@@ -19,6 +19,9 @@
         <router-link class="header__link" to="/contact">Contact</router-link>
       </li>
       <li>
+        <router-link class="header__link" to="/turkey">Turkey</router-link>
+      </li>
+      <li>
         <a class="header__link" href="https://www.linkedin.com/" target="_blank"
           >LinkedIn</a
         >
@@ -82,6 +85,15 @@
           >Contact</router-link
         >
       </li>
+      <li>
+        <router-link
+          class="mobile-nav__link"
+          to="/turkey"
+          @click="toggleMobileNav"
+          >Turkey</router-link
+        >
+      </li>
+
       <li>
         <a class="mobile-nav__link" href="https://www.linkedin.com/"
           >LinkedIn</a
