@@ -135,7 +135,7 @@ export default {
       isMobileNavVisible: false,
 
       // I will show the toggle when
-      isToggleVisible: window.innerWidth > 768,
+      isToggleVisible: window.innerWidth < 768,
 
       // hiding the hamburger menu if width is more than 768
       hideHeaderBars: window.innerWidth > 768,
