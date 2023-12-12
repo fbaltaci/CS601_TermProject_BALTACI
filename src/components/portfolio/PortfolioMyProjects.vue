@@ -7,9 +7,7 @@
         src="../../assets/images/fehmibaltaci.github.io_SushiMan.png"
         alt="SushiMan"
       />
-      <a href="../../assets/images/fehmibaltaci.github.io_SushiMan.png"
-        >SushiMan</a
-      >
+      SushiMan
     </div>
 
     <div class="my-projects__gallery-item grid-item">
@@ -18,7 +16,7 @@
         src="../../assets/images/netflix_clone.png"
         alt="Netflix Clone"
       />
-      <a href="../../assets/images/netflix_clone.png">Netflix Clone</a>
+      Netflix Clone
     </div>
 
     <div class="my-projects__gallery-item grid-item">
@@ -27,9 +25,7 @@
         src="../../assets/images/url-shortening-api-landing-page.jpg"
         alt="URL Shortening Web Page"
       />
-      <a href="../../assets/images/url-shortening-api-landing-page.jpg"
-        >URL Shortening Web Page</a
-      >
+      URL Shortening Web Page
     </div>
 
     <div class="my-projects__gallery-item grid-item">
@@ -38,7 +34,7 @@
         src="../../assets/images/todo-list-app.png"
         alt="To-Do List Web App"
       />
-      <a href="../../assets/images/todo-list-app.png">To-Do List Web App</a>
+      To-Do List Web App
     </div>
 
     <div class="my-projects__gallery-item grid-item">
@@ -47,9 +43,7 @@
         src="../../assets/images/single-price-grid-component.jpg"
         alt="Subsription Website"
       />
-      <a href="../../assets/images/single-price-grid-component.jpg"
-        >Subsription Website</a
-      >
+      Subsription Website
     </div>
 
     <div class="my-projects__gallery-item grid-item">
@@ -58,9 +52,7 @@
         src="../../assets/images/intro-component-with-signup-form.png"
         alt="Sign-up Page"
       />
-      <a href="../../assets/images/intro-component-with-signup-form.png"
-        >Sign-up Page</a
-      >
+      Sign-up Page
     </div>
   </div>
 </template>
