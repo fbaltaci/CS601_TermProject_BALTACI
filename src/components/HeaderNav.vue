@@ -106,12 +106,17 @@
       </li>
 
       <li>
-        <a class="mobile-nav__link" href="https://www.linkedin.com/"
+        <a
+          class="mobile-nav__link"
+          href="https://www.linkedin.com/"
+          target="_blank"
           >LinkedIn</a
         >
       </li>
       <li>
-        <a class="mobile-nav__link" href="https://github.com/">GitHub</a>
+        <a class="mobile-nav__link" href="https://github.com/" target="_blank"
+          >GitHub</a
+        >
       </li>
     </ul>
   </div>
