@@ -2,6 +2,7 @@
   <div class="header__icon">
     <router-link to="/">FehmiBaltaci</router-link>
   </div>
+  <!-- using router link in the menu so we can switch the pages -->
   <nav>
     <ul class="header__menu" :class="{ hide: hideNavMenu }">
       <li>
@@ -32,6 +33,9 @@
         >
       </li>
     </ul>
+
+    <!-- I have a toggle menu here and using hideToggle and 
+      toggleMobileNav we're deciding if we want to show it to the user or not.-->
     <button
       class="header__bars"
       :class="{ hide: hideToggle }"
@@ -54,8 +58,15 @@
   </nav>
 
   <!-- START - MOBILE NAV - START -->
+
+  <!-- mobile-nav--active is depending on  isMobileNavVisible, 
+    if it is true, it will be visible to the user.-->
+
   <div class="mobile-nav" :class="{ 'mobile-nav--active': isMobileNavVisible }">
     <ul class="mobile-nav__menu">
+      <!-- adding toggleMobileNav method to the each link 
+        so if user click on any link, menu will toggle 
+        and new page will be visible to the user. -->
       <li>
         <router-link class="mobile-nav__link" to="/" @click="toggleMobileNav"
           >Home</router-link
@@ -111,30 +122,45 @@
 export default {
   data() {
     return {
+      // getting the innerWidth so we can use it in other methods.
       windowWidth: window.innerWidth,
+
+      // mobile nav is not visible to the user in default
+      // but we will update it using methods
       isMobileNavVisible: false,
+
+      // I will show the toggle when
       isToggleVisible: window.innerWidth > 768,
+
+      // hiding the hamburger menu if width is more than 768
       hideHeaderBars: window.innerWidth > 768,
+
+      // hiding the nav menu if width is less than 768
       hideNavMenu: window.innerWidth < 768,
     };
   },
   mounted() {
+    // dealing with hiding and showing the elements on the DOM after they're mounted
     window.addEventListener("resize", this.handleResize);
   },
   beforeUnmount() {
+    // dealing with hiding and showing the elements on the DOM before they're mounted
     window.removeEventListener("resize", this.handleResize);
   },
   methods: {
     handleResize() {
+      // using the function, we're changing the attitude for the elements on the page.
       this.windowWidth = window.innerWidth;
       this.hideHeaderBars = this.windowWidth > 768;
       this.hideNavMenu = window.innerWidth < 768;
       this.hideToggle = window.innerWidth > 768;
     },
     toggleMobileNav() {
+      // changing the visibility of the mobile nav here.
       this.isMobileNavVisible = !this.isMobileNavVisible;
     },
     hideToggle() {
+      // changing the visibility of the mobile nav toggle here.
       this.isToggleVisible = !this.isToggleVisible;
     },
   },

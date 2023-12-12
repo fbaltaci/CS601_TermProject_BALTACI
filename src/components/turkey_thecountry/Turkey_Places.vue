@@ -2,6 +2,9 @@
   <section class="turkey-places">
     <h2 class="turkey-places__title">Nice Places to Visit in Turkey</h2>
     <ul>
+      <!-- get the info from data with for loop -->
+      <!-- and create a method and attach that to the li item, 
+        if user clicks on the place, more detail will be shared -->
       <li
         v-for="place in places"
         :key="place.name"
@@ -46,6 +49,8 @@ export default {
     };
   },
   methods: {
+    // we're deciding if we want to add more details to the place or not.
+    // if user click on the place, we will switch it and show more details about the place
     toggleDetails(place) {
       place.showDetails = !place.showDetails;
     },

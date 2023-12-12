@@ -1,4 +1,5 @@
 <template>
+  <!-- Adding my components to the each view here -->
   <div class="home">
     <main>
       <section class="hero container">
@@ -15,6 +16,7 @@
 </template>
 
 <script>
+// Importing components
 import Home_Hero from "@/components/home/Home_Hero.vue";
 import Home_ExampleProjects from "@/components/home/Home_ExampleProjects.vue";
 import HomeAudio from "@/components/home/Home_Audio.vue";
@@ -22,6 +24,7 @@ import HomeAudio from "@/components/home/Home_Audio.vue";
 export default {
   name: "HomeView",
   components: {
+    // defining components so we can use them in the view.
     Home_Hero,
     Home_ExampleProjects,
     HomeAudio,

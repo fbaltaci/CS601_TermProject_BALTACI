@@ -11,6 +11,7 @@
           </tr>
         </thead>
         <tbody>
+          <!-- Using the link only if there is a link in the data -->
           <tr v-for="(job, index) in jobHistory" :key="index">
             <td class="table-comp-name">
               <a v-if="job.link" :href="job.link" target="_blank">{{

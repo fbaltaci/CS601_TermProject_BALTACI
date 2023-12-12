@@ -1,10 +1,13 @@
 import { createRouter, createWebHashHistory } from "vue-router";
+
+// imported my routers here
 import HomeView from "../views/HomeView.vue";
 import AboutView from "../views/AboutView.vue";
 import PortfolioView from "../views/PortfolioView.vue";
 import ContactView from "../views/ContactView.vue";
 import TurkeyView from "../views/TurkeyView.vue";
 
+// rooters that will be showed to the user.
 const routes = [
   {
     path: "/",

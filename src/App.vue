@@ -13,11 +13,13 @@
 </template>
 
 <script>
+// importing components for the App.vue
 import HeaderNav from "@/components/HeaderNav.vue";
 import FooterNav from "@/components/FooterNav.vue";
 
 export default {
   components: {
+    // defining header and footer components here so they can be used on the page.
     HeaderNav,
     FooterNav,
   },

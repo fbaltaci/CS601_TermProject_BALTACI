@@ -5,13 +5,13 @@
       Get in touch with me via social media or email
     </h1>
     <div class="contact-me__contact-links">
-      <!-- Use v-for to iterate over socialMediaLinks array -->
+      <!-- with v-for for loop the socialMediaLinks array -->
       <div
         v-for="(link, index) in socialMediaLinks"
         :key="index"
         class="contact-me__contact-link-item"
       >
-        <!-- Use a method to generate the social media link -->
+        <!-- with v-for for loop the socialMediaLinks array -->
         <a :href="link.url" target="_blank">
           <img
             :class="['contacts-img', link.iconClass]"

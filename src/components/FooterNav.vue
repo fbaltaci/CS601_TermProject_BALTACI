@@ -8,6 +8,7 @@
         >&copy; 2023 Coded by FehmiBaltaci</a
       >
     </div>
+    <!-- using router link in the menu so we can switch the pages -->
     <nav>
       <ul class="footer-nav__menu">
         <li>

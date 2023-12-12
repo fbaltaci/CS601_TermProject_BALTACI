@@ -23,14 +23,6 @@
         name="subject"
         placeholder="Subject"
       />
-      <!-- <input
-              class="send-email-form-item"
-              id="send-email__form-message"
-              type="text"
-              name="comment"
-              size="50"
-              placeholder="Type Your Message Here..."
-            /> -->
       <textarea
         name="message"
         id="send-email-form-item-message"
